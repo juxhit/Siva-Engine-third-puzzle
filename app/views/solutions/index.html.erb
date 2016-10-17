@@ -1,0 +1,51 @@
+<h1>Solution</h1>
+<%= form_tag solutions_path do %>
+<table>
+  <tr>
+    <td><%= text_field_tag :beginning %></td>
+    <td><%= text_field_tag :r1_1, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r1_2, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r1_3, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r1_4, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r1_5, "", placeholder: "Plus" %></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= text_field_tag :r2_1, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r2_2, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r2_3, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r2_4, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r2_5, "", placeholder: "Plus" %></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= text_field_tag :r3_1, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r3_2, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r3_3, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r3_4, "", placeholder: "Plus" %></td>
+    <td><%= text_field_tag :r3_5, "", placeholder: "Plus" %></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= text_field_tag :r4_1, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :r4_2, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :r4_3, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :r4_4, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :r4_5, "", placeholder: "Minus" %></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= text_field_tag :r5_1, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :r5_2, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :r5_3, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :r5_4, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :r5_5, "", placeholder: "Minus" %></td>
+    <td><%= text_field_tag :theend, "730" %></td>
+  </tr>
+</table>
+<div><%= submit_tag "Solution" %></div>
+<% end %>
